@@ -54,7 +54,7 @@ My Portfolio's tech stack included a combination of HTML and CSS to structure an
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- **[Coming Soon]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +140,7 @@ After completing your setup, it's time to make your website available online! I 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/PabloBona/microverse-curriculum-html-css/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,6 +160,6 @@ Nicolas Alvarez, for his mentorship and guidance throughout the development proc
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
