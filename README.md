@@ -86,7 +86,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:PabloBona/Hello-Microverse-Project.git
+  git clone https://github.com/PabloBona/microverse-curriculum-html-css.git
 ```
 
 ### Install
@@ -94,7 +94,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Hello-Micorverse-Project
+  cd microverse-curriculum-html-css
   npm install
 ```
 
