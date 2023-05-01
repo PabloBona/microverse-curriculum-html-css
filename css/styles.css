@@ -186,7 +186,8 @@ span.tag {
   padding: 4px 12px;
   border-radius: 8px;
   background-color: #ebebff;
-  float: left
+  float: left;
+  margin-left: 5px;
 }
 
 /* About me */
