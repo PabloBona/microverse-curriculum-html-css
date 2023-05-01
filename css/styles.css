@@ -172,9 +172,10 @@ ul.project-details li span.company {
 
 ul.categories {
   padding: 0;
-  display: flex;
+
   gap: 8px;
   margin: 0 0 24px;
+  
 }
 
 span.tag {
@@ -185,6 +186,7 @@ span.tag {
   padding: 4px 12px;
   border-radius: 8px;
   background-color: #ebebff;
+  float: left
 }
 
 /* About me */
@@ -297,5 +299,8 @@ span.tag {
 }
 
 .float-container {
+  width: 214px;
+  height: 24px;
+  border: 1px solid gold
  
 }
