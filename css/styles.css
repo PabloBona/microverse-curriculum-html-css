@@ -295,3 +295,8 @@ span.tag {
 .expertise ul.expertise-categories > li.expanded ul.expertise-category-items {
   max-height: 300px;
 }
+
+.contact{
+  background: #6070FF;
+  border-top-left-radius: 70px;
+}
