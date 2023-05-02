@@ -131,6 +131,13 @@ a.button:active {
   max-width: 100%;
 }
 
+.contact h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
 .card .card-content h2 {
   font-size: 32px;
   line-height: 44px;
@@ -341,13 +348,6 @@ span.tag {
 .contact .form-group input::placeholder,
 .contact .form-group textarea::placeholder {
   color: #b3bac5;
-}
-
-.contact h2 {
-  color: #fff;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
 }
 
 .form-button {
