@@ -164,16 +164,15 @@
     <div class="background-container">
       <h2>Contact me</h2>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
-      
       <form action="https://formspree.io/f/xzbqoegq" method="POST">
         <div class="form-group">
-          <input type="text" id="email" placeholder="Enter your Name Here" maxlength="30" required pattern="[a-zA-Z\s]{1,30}">
+          <input type="text" id="name" name="name" placeholder="Enter your Name Here" maxlength="30" required pattern="[a-zA-Z\s]{1,30}">
         </div>
         <div class="form-group">
-          <input type="email" id="email" placeholder="Enter your Email Here" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <input type="email" id="email" name="email" placeholder="Enter your Email Here" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
         </div>
         <div class="form-group">
-          <textarea name="message" id="message" rows="7" cols="30" placeholder="Write your message here..." maxlength="500" required pattern=".{1,500}"></textarea>
+          <textarea name="message" id="message" rows="7" cols="30" placeholder="Write your message here..." maxlength="500" required></textarea>
         </div>
         <div class="form-actions">
           <button class="form-button" type="submit">Get in touch</button>
