@@ -454,12 +454,41 @@ span.tag {
     padding-right: 14.3rem;
   }
 
-  div.burguer-menu {
-    display: none;
-  }
-
   .main-navigation a {
     text-decoration-line: none;
+  }
+
+  .desktop-nav a {
+    color: #344563;
+  }
+
+  .desktop-nav li a {
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+  }
+
+  .desktop-nav li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .desktop-nav li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  div.burguer-menu {
+    display: none;
   }
 
   .hero {
@@ -612,10 +641,6 @@ span.tag {
   .desktop-nav ul {
     display: flex;
     flex-direction: row;
-  }
-
-  .desktop-nav a {
-    color: #344563;
   }
 
   .none {
