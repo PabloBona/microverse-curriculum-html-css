@@ -131,6 +131,13 @@ a.button:active {
   max-width: 100%;
 }
 
+.contact h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
 .card .card-content h2 {
   font-size: 32px;
   line-height: 44px;
@@ -294,4 +301,65 @@ span.tag {
 
 .expertise ul.expertise-categories > li.expanded ul.expertise-category-items {
   max-height: 300px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 62px 0 0;
+  color: #fff;
+}
+
+.contact .background-container {
+  padding: 103px 24px 45px;
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+  background-image: url(../img/contact-form-background-shapes.png);
+  background-repeat: no-repeat;
+  background-position: right 20px;
+  background-size: 60%;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.contact form .form-group {
+  display: flex;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 16px;
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  outline: none;
+}
+
+.contact .form-group input::placeholder,
+.contact .form-group textarea::placeholder {
+  color: #b3bac5;
+}
+
+.form-button {
+  padding: 12px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  transition: all ease 0.3s;
+  background-color: #fff;
 }
