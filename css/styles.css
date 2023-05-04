@@ -139,6 +139,18 @@ a.button:active {
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-transform: uppercase;
+  transition: color 0.5s ease;
+}
+
+.contact h2 {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  text-align: center;
+}
+
+.hero h2:hover {
+  color: #000535;
 }
 
 .hero ul {
@@ -177,13 +189,6 @@ a.button:active {
 
 .card img {
   max-width: 100%;
-}
-
-.contact h2 {
-  color: #fff;
-  font-size: 4rem;
-  line-height: 5.2rem;
-  text-align: center;
 }
 
 .contact p {
