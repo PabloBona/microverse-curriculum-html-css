@@ -309,7 +309,7 @@ span.tag {
   border-radius: 0.8rem;
 }
 
-.expertise ul.expertise-categories>li {
+.expertise ul.expertise-categories > li {
   border-bottom: 0.1rem solid #dfe1e6;
   transition: all ease 0.3s;
 }
@@ -326,7 +326,7 @@ span.tag {
   color: #253858;
 }
 
-.expertise ul.expertise-categories>li h2 {
+.expertise ul.expertise-categories > li h2 {
   margin: 0;
   padding: 2.4rem 3.4rem 2.4rem 1.2rem;
   cursor: pointer;
@@ -338,7 +338,7 @@ span.tag {
   line-height: 2.4rem;
 }
 
-.expertise ul.expertise-categories>li h2::after {
+.expertise ul.expertise-categories > li h2::after {
   content: "";
   background-image: url(../img/icons/chevron-icon.svg);
   display: block;
@@ -346,11 +346,11 @@ span.tag {
   height: 2.4rem;
 }
 
-.expertise ul.expertise-categories>li.expanded {
+.expertise ul.expertise-categories > li.expanded {
   border-bottom-color: #fff;
 }
 
-.expertise ul.expertise-categories>li.expanded h2::after {
+.expertise ul.expertise-categories > li.expanded h2::after {
   transform: rotate(90deg);
 }
 
@@ -367,7 +367,7 @@ span.tag {
   gap: 1.2rem;
 }
 
-.expertise ul.expertise-categories>li.expanded ul.expertise-category-items {
+.expertise ul.expertise-categories > li.expanded ul.expertise-category-items {
   max-height: 30rem;
 }
 
@@ -654,5 +654,4 @@ span.tag {
   .form-group:hover {
     transform: translateX(10px);
   }
-
 }
